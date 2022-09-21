@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./fundo.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  
+
+
+}
+
+.fotoPerfil{
+  width: 20vw;
+  height: 43vh;
+  border-radius: 100%;
+  margin-left: 2cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+
+
+
+}
+
+
+.Titulo{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 8cm;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-style:italic;
+}
+
+.divisoria{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(70, 131, 187);
+
+}
+
+
+.info{
+  padding-top: 0.2cm;
+  font-size: 40px;
+  font-family: 'Tiro Telugu', serif;
+
+}
+body{
+  background-color: rgb(127, 90, 161);
+  
+}
+
+.cursos{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33% 33.33%;
+  margin-left: 7cm;
+  
+}
+
+.tituloAl{
+  padding-top: 0.7cm;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 1cm;
+  font-size: 40px;
+}
+.infoAl{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  padding-top: 0.5cm;
+}
+
+.sobremim{
+  padding-top: 0.7cm;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 2.5cm;
+  font-size: 40px;
+}
+
+.sobreinfo{
+  padding-top: 0.5cm;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.formtitu{
+  padding-top: 0.7cm;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 2.8cm;
+}
+
+.contato{
+  
+  padding-top: 0.7cm;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin-left: 2.5cm;
+}
+
+.continfo{
+  padding-top: 0.5cm;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+
+}
+.inforform{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  padding-top: 0.5cm;
+  margin-left: 0.5cm;
+}
+
+.footer{
+  margin-top: 5.1cm;
+  background-color: rgb(70, 131, 187);
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.infofoot{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.email{
+  width: 1cm;
+  
+}
+
+.git{
+  width: 1cm;
+}
+
+.linkedin{
+  width: 1cm;
+}
+
+
+
+
+  
+.alinhando{
+  display: flex;
+  flex-direction:column;
+  border-width: 2cm;
+  border-color: black;
+  border-radius: 2px;
+}
